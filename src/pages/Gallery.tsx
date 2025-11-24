@@ -112,7 +112,7 @@ const Gallery = () => {
               description: 'Outdoor camping and environmental education session in natural forest setting'
             },
             {
-              url: 'https://page.gensparksite.com/v1/base64_upload/912660a848e57e7f8eea9c9e397e50fa',
+              url: '/images/community participation-2.webp',
               title: 'Sustainable Camping Workshop',
               description: 'Community members learning eco-friendly camping and outdoor survival skills'
             },

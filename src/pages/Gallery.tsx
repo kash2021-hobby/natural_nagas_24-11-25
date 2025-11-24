@@ -87,7 +87,7 @@ const Gallery = () => {
               description: 'Village representatives gathering for community development discussions'
             },
             {
-              url: 'https://page.gensparksite.com/v1/base64_upload/2cd1bc1dce43c21d8d6dffd034abb3c0',
+              url: '/images/Beads stringing workshop.webp',
               title: 'Women\'s Skill Development Workshop',
               description: 'Women participating in hands-on training for traditional string and textile crafts'
             },

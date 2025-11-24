@@ -117,7 +117,7 @@ const Gallery = () => {
               description: 'Community members learning eco-friendly camping and outdoor survival skills'
             },
             {
-              url: 'https://page.gensparksite.com/v1/base64_upload/55421b933fead3eb6e1b873bcb7bfb8a',
+              url: '/images/distribution of seeds to SHGs.webp',
               title: 'Forest Path Maintenance',
               description: 'Community volunteers clearing and maintaining natural pathways for conservation'
             },

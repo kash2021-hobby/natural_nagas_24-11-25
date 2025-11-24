@@ -149,24 +149,24 @@ const Programs = () => {
       description: 'Community project planning for sustainable water conservation and management'
     },
     {
-      url: 'https://page.gensparksite.com/v1/base64_upload/4d5137aa872d23487982753ec14a6342',
-      title: 'Traditional Building Construction',
-      description: 'Community building project using eco-friendly materials and traditional techniques'
+      url: '/images/gdp-activities/Integrated Community Farm.webp',
+      title: 'Integrated Community Farm Infrastructure',
+      description: 'Sustainable agricultural facility showcasing integrated farming practices in scenic hillside location'
     },
     {
-      url: 'https://page.gensparksite.com/v1/base64_upload/329d73a40b29f941753bbe1f2e7b2113',
-      title: 'Community Training Distribution',
-      description: 'Participants receiving materials and instructions for sustainable development activities'
+      url: '/images/gdp-activities/photography workshop participants.webp',
+      title: 'Photography Skills Workshop',
+      description: 'Youth capacity building program teaching photography and documentation skills for conservation awareness'
     },
     {
-      url: 'https://page.gensparksite.com/v1/base64_upload/ab470dd430ed6b2b36798fbb60a0fbb2',
-      title: 'Agricultural Support Program',
-      description: 'Community members receiving supplies and training for sustainable farming practices'
+      url: '/images/gdp-activities/ecotourism workshop (guiding).webp',
+      title: 'Ecotourism Guide Training Workshop',
+      description: 'Community members learning professional guiding skills for sustainable ecotourism development'
     },
     {
-      url: 'https://page.gensparksite.com/v1/base64_upload/0f1a9f9c16ef4d138c3ac76c0f813f68',
-      title: 'Traditional Cooking Methods',
-      description: 'Demonstration of eco-friendly cooking practices using traditional wood-fired stoves'
+      url: '/images/gdp-activities/Economic kitchen chullah.webp',
+      title: 'Economic Kitchen Chullah Program',
+      description: 'Energy-efficient cooking stove initiative reducing firewood consumption and indoor air pollution'
     },
     // New 15 photos from Google Drive (downloaded locally)
     {
@@ -248,6 +248,11 @@ const Programs = () => {
       url: '/images/gdp-activities/ecotourism workshop on homestays.webp',
       title: 'Ecotourism Workshop on Homestays',
       description: 'Community workshop promoting sustainable ecotourism through homestay development and local participation'
+    },
+    {
+      url: '/images/gdp-activities/poultry at ICF.webp',
+      title: 'Poultry Farming at Integrated Community Farm',
+      description: 'Alternative livelihood generation through sustainable poultry farming practices'
     }
   ];
 

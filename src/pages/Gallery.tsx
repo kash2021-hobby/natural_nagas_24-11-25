@@ -122,7 +122,7 @@ const Gallery = () => {
               description: 'Community volunteers clearing and maintaining natural pathways for conservation'
             },
             {
-              url: 'https://page.gensparksite.com/v1/base64_upload/7a3a7658c2b3b96f820d78208f53b23e',
+              url: '/images/Economic kitchen chullah.webp',
               title: 'Village Infrastructure Development',
               description: 'Community project planning for sustainable water conservation and management'
             },

@@ -92,7 +92,7 @@ const Gallery = () => {
               description: 'Women participating in hands-on training for traditional string and textile crafts'
             },
             {
-              url: '/images/Beads stringing workshop (2).webp',
+              url: '/images/camping in Doyang (3).webp',
               title: 'Traditional Craft Training Session',
               description: 'Participants learning beadwork and traditional textile techniques'
             },

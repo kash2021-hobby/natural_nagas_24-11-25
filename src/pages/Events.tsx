@@ -34,21 +34,26 @@ const Events = () => {
 
   // Photo galleries
   const dhandeliImages = [
-    'https://drive.google.com/file/d/1Usl4Zk0JLyMINxd8bmH9-04BuXJf9Nu6/view?usp=drive_link',
-    'https://drive.google.com/file/d/1cRvjd7db3uR3KvDN2-pKCc4tbD0cT_tO/view?usp=drive_link',
-    'https://drive.google.com/file/d/1X-nxP3zqF4LQu4-HRBj5i4zNeLF9xvX5/view?usp=drive_link',
-    'https://drive.google.com/file/d/1HyTERH9CBxPC1tWnTBEvREk78vopeR4v/view?usp=drive_link',
-    'https://drive.google.com/file/d/1A8OAIdS3KGeRGrjK0wq-2YGZ9APOG4DA/view?usp=drive_link',
-    'https://drive.google.com/file/d/1q4YjuyO0QF7h9LGLC86Pz4SvYWOWK8Nm/view?usp=drive_link',
-    'https://drive.google.com/file/d/1YhffQQO4bSARXkyuZ4ePKSiTB38wXcnz/view?usp=drive_link',
-    'https://drive.google.com/file/d/1nQ8AG36jCjTK4Pq_TUJMoOS9qxF1o1nc/view?usp=drive_link',
-    'https://drive.google.com/file/d/1_BwQcxcmNG909_cuOtboSUj-Sn-YCOHn/view?usp=drive_link',
-    'https://drive.google.com/file/d/1F9cghGdVrwDtFg3xDIdNMGHLmtyVI48k/view?usp=drive_link',
-    'https://drive.google.com/file/d/1OMGdZoBILviLl335RPk8TGyGmbc0ZvB3/view?usp=drive_link',
-    'https://drive.google.com/file/d/15v8jm2Rg1ym9zvDYFHGQ0BN1NFLT2iiZ/view?usp=drive_link',
-    'https://drive.google.com/file/d/1aYgdHS7ubQxaIaPzdu-LwtU14UwKJElJ/view?usp=drive_link',
-    'https://drive.google.com/file/d/1NCsp8RikTWus26S5Bl8RBfdLTT7go--r/view?usp=drive_link',
-    'https://drive.google.com/file/d/1CjS59VmxBhPDM-igN8Z4ZuWzDrurDQHL/view?usp=drive_link'
+    {
+      url: '/images/dhandeli-karnataka-trip/IMG_5390.webp',
+      title: 'Community Training Session',
+      description: 'Natural Nagas team members observing local expert sharing traditional knowledge about human-elephant conflict mitigation'
+    },
+    {
+      url: '/images/dhandeli-karnataka-trip/IMG_5391.webp',
+      title: 'Local Expert Demonstration',
+      description: 'Karnataka community leader demonstrating traditional techniques for elephant deterrence'
+    },
+    {
+      url: '/images/dhandeli-karnataka-trip/IMG_5392.webp',
+      title: 'Traditional Tools Training',
+      description: 'Learning about locally-developed tools and methods used in human-elephant conflict management'
+    },
+    {
+      url: '/images/dhandeli-karnataka-trip/IMG_5393.webp',
+      title: 'Traditional Deterrent Methods',
+      description: 'Close-up of traditional materials and substances used by local communities for elephant deterrence'
+    }
   ];
 
   const plantationImages = [
@@ -331,15 +336,15 @@ const Events = () => {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {dhandeliImages.map((imageUrl, index) => (
+              {dhandeliImages.map((image, index) => (
                 <div
                   key={index}
                   className="aspect-square bg-gray-100 rounded-lg overflow-hidden group cursor-pointer"
                   onClick={() => openLightbox(index)}
                 >
                   <img
-                    src={getGoogleDriveImageUrl(imageUrl, 'w400')}
-                    alt={`Dhandeli Karnataka Training ${index + 1}`}
+                    src={image.url}
+                    alt={image.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
@@ -709,10 +714,10 @@ const Events = () => {
                   title: image.title,
                   description: image.description
                 }))
-              : dhandeliImages.map((url, idx) => ({
-                  url: getGoogleDriveImageUrl(url, 'w1200'),
-                  title: `Dhandeli Karnataka Training ${idx + 1}`,
-                  description: 'Training and exposure trip activities at Dhandeli, Karnataka'
+              : dhandeliImages.map((image) => ({
+                  url: image.url,
+                  title: image.title,
+                  description: image.description
                 }))
           }
           currentIndex={lightboxIndex}

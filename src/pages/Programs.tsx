@@ -129,7 +129,7 @@ const Programs = () => {
       description: 'Energetic group activity promoting community engagement and team spirit'
     },
     {
-      url: 'https://page.gensparksite.com/v1/base64_upload/4cd2bc03cebf72713b8fb5c8c6cf8f6d',
+      url: '/images/cleanliness drives-2.webp',
       title: 'Environmental Training Camp',
       description: 'Outdoor camping and environmental education session in natural forest setting'
     },

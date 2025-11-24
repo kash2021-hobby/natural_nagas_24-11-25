@@ -87,7 +87,7 @@ const Gallery = () => {
               description: 'Village representatives gathering for community development discussions'
             },
             {
-              url: '/images/Beads stringing workshop.webp',
+              url: '/images/camping in Doyang (2).webp',
               title: 'Women\'s Skill Development Workshop',
               description: 'Women participating in hands-on training for traditional string and textile crafts'
             },

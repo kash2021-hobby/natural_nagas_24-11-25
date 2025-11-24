@@ -52,12 +52,31 @@ const Events = () => {
   ];
 
   const plantationImages = [
-    'https://drive.google.com/file/d/1QjG9UyC9c97VEVQaCOqU1UrJYhN5Otjg/view?usp=drive_link',
-    'https://drive.google.com/file/d/1XZ-LdTcXWvJ-DfzZ_2YZT-vgjyMvPOA2/view?usp=drive_link',
-    'https://drive.google.com/file/d/1XeGp1PSlVLb37xNxDaEa_gcI76mftmHE/view?usp=drive_link',
-    'https://drive.google.com/file/d/1FaGrj5-jBDwuvOkdciYOIXObVGEyl188/view?usp=drive_link',
-    'https://drive.google.com/file/d/1Wse3P7aAzdK8hwrwkKS2S-pcitfjs2YH/view?usp=drive_link',
-    'https://drive.google.com/file/d/1D9OV9PInVkAVefQBGafgmq3BvyEF45qN/view?usp=drive_link'
+    {
+      url: '/images/plantation-drives/_MG_4150a.webp',
+      title: 'Natural Nagas Team During Plantation Drive',
+      description: 'Team members taking a break during the Rhododendron plantation work at Mt. Tiyi'
+    },
+    {
+      url: '/images/plantation-drives/20200903_103857.webp',
+      title: 'Community Land Preparation',
+      description: 'Volunteers clearing and preparing the land for planting in partnership with Wokha Village Council'
+    },
+    {
+      url: '/images/plantation-drives/_MG_4148.webp',
+      title: 'Rhododendron Saplings Ready for Planting',
+      description: 'Carefully prepared Rhododendron Arboreum saplings awaiting planting at the site'
+    },
+    {
+      url: '/images/plantation-drives/_MG_4158.webp',
+      title: 'Planting in Natural Habitat',
+      description: 'Volunteer planting a sapling in its natural mountain habitat at Mt. Tiyi'
+    },
+    {
+      url: '/images/plantation-drives/_MG_4170.webp',
+      title: 'Nurturing New Growth',
+      description: 'Team member caring for a newly planted Rhododendron Arboreum sapling'
+    }
   ];
 
   const earthDayImages = [
@@ -627,17 +646,22 @@ const Events = () => {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {plantationImages.map((imageUrl, index) => (
+              {plantationImages.map((image, index) => (
                 <div
                   key={index}
-                  className="aspect-square bg-gray-100 rounded-lg overflow-hidden group cursor-pointer"
+                  className="aspect-square bg-gray-100 rounded-lg overflow-hidden group cursor-pointer relative"
                   onClick={() => openLightbox(index, 'plantation')}
                 >
                   <img
-                    src={getGoogleDriveImageUrl(imageUrl, 'w400')}
-                    alt={`Plantation Drive ${index + 1}`}
+                    src={image.url}
+                    alt={image.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute bottom-0 left-0 right-0 p-4">
+                      <p className="text-white text-sm font-medium line-clamp-2">{image.title}</p>
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>
@@ -675,10 +699,10 @@ const Events = () => {
         <Lightbox
           images={
             currentGallery === 'plantation'
-              ? plantationImages.map((url, idx) => ({
-                  url: getGoogleDriveImageUrl(url, 'w1200'),
-                  title: `Plantation Drive ${idx + 1}`,
-                  description: '500 saplings of Rhododendron Arboreum at Mt. Tiyi with Wokha Village Council'
+              ? plantationImages.map((image) => ({
+                  url: image.url,
+                  title: image.title,
+                  description: image.description
                 }))
               : dhandeliImages.map((url, idx) => ({
                   url: getGoogleDriveImageUrl(url, 'w1200'),

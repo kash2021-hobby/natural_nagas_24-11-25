@@ -315,6 +315,11 @@ const Gallery = () => {
               url: '/images/water-table-recharge/water_06.jpg',
               title: 'Water Resource Development',
               description: 'Long-term water security through community-based recharge projects'
+            },
+            {
+              url: '/images/water-table-recharge/6.webp',
+              title: 'Village Water Conservation Landscape',
+              description: 'Community settlement with integrated water management and conservation infrastructure'
             }
           ]
         }

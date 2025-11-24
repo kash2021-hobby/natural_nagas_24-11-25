@@ -129,7 +129,7 @@ const Programs = () => {
       description: 'Energetic group activity promoting community engagement and team spirit'
     },
     {
-      url: '/images/cleanliness drives-2.webp',
+      url: '/images/distribution of seeds toSHGs.webp',
       title: 'Environmental Training Camp',
       description: 'Outdoor camping and environmental education session in natural forest setting'
     },

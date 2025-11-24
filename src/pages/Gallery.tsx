@@ -225,6 +225,31 @@ const Gallery = () => {
               url: '/images/gdp-activities/poultry at ICF.webp',
               title: 'Poultry Farming at Integrated Community Farm',
               description: 'Alternative livelihood generation through sustainable poultry farming practices'
+            },
+            {
+              url: '/images/gdp-activities/poultry at Integrated Community Farm (2).webp',
+              title: 'Poultry Production at Community Farm',
+              description: 'Intensive poultry rearing showcasing successful alternative livelihood and income generation program'
+            },
+            {
+              url: '/images/gdp-activities/pressure cooker distribution.webp',
+              title: 'Pressure Cooker Distribution Program',
+              description: 'Community receiving energy-efficient cooking equipment to promote fuel conservation and sustainable practices'
+            },
+            {
+              url: '/images/gdp-activities/revival of cultural practices.webp',
+              title: 'Revival of Traditional Cultural Practices',
+              description: 'Women practicing traditional rice pounding preserving indigenous cultural heritage and skills'
+            },
+            {
+              url: '/images/gdp-activities/signages for posterity.webp',
+              title: 'Environmental Awareness Signage Campaign',
+              description: 'Save Mother Earth signage promoting environmental consciousness and conservation messaging in the village'
+            },
+            {
+              url: '/images/gdp-activities/snack made with local produce.webp',
+              title: 'Local Produce Value Addition',
+              description: 'Traditional snacks made from local ingredients demonstrating food processing and income generation opportunities'
             }
           ]
         },

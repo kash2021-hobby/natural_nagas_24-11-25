@@ -97,7 +97,7 @@ const Gallery = () => {
               description: 'Participants learning beadwork and traditional textile techniques'
             },
             {
-              url: 'https://page.gensparksite.com/v1/base64_upload/c465c159287d35b74334f239eb3167d5',
+              url: '/images/camping in Doyang.webp',
               title: 'Community Hall Gathering',
               description: 'Community members assembled for environmental awareness and development programs'
             },

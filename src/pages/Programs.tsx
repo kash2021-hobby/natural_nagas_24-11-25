@@ -280,8 +280,13 @@ const Programs = () => {
       description: 'Traditional snacks made from local ingredients demonstrating food processing and income generation opportunities'
     },
     {
-      url: '/images/gdp-activities/workshop on production, processing and marketing locally produced food (2).webp',
+      url: '/images/gdp-activities/workshop on production, processing and marketing locally produced food.webp',
       title: 'Workshop on Production, Processing and Marketing Locally Produced Food',
+      description: 'Community gathering for outdoor training session on local food production techniques and market linkage development'
+    },
+    {
+      url: '/images/gdp-activities/workshop on production, processing and marketing locally produced food (2).webp',
+      title: 'Food Production and Marketing Workshop - Field Training',
       description: 'Field training on local food production techniques and market linkage development for sustainable agriculture'
     },
     {

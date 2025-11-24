@@ -77,7 +77,7 @@ const Gallery = () => {
           title: 'Exposure visit to the cleanest village in Nagaland',
           photos: [
             {
-              url: 'https://page.gensparksite.com/v1/base64_upload/e2a29cf6201dc5b33c53127ab2805157',
+              url: '/images/bamboo crafts.webp',
               title: 'Traditional Craft Workshop',
               description: 'Community members learning traditional bamboo weaving and basket making skills'
             },

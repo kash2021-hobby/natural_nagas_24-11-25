@@ -99,7 +99,7 @@ const Programs = () => {
   const gdpActivityPhotos = [
     // Original 14 photos from external URLs
     {
-      url: 'https://page.gensparksite.com/v1/base64_upload/e2a29cf6201dc5b33c53127ab2805157',
+      url: '/images/bamboo crafts.webp',
       title: 'Traditional Craft Workshop',
       description: 'Community members learning traditional bamboo weaving and basket making skills'
     },

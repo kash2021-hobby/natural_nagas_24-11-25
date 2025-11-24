@@ -101,10 +101,10 @@ const Events = () => {
     <div className="min-h-screen">
       {/* Hero Section - Following Home page pattern */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${getGoogleDriveImageUrl('https://drive.google.com/file/d/1Y_QN6tgFHHxyxY8Y5OW6xtEjLk38hTp0/view?usp=drive_link', 'w1200')})`
+            backgroundImage: `url('/images/3.webp')`
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60"></div>

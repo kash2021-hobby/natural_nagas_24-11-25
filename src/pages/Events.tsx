@@ -76,6 +76,11 @@ const Events = () => {
       url: '/images/plantation-drives/_MG_4170.webp',
       title: 'Nurturing New Growth',
       description: 'Team member caring for a newly planted Rhododendron Arboreum sapling'
+    },
+    {
+      url: '/images/plantation-drives/20200903_130917.webp',
+      title: 'Hands-On Reforestation Effort',
+      description: 'Volunteer working on the mountainous terrain planting Rhododendron saplings at Mt. Tiyi'
     }
   ];
 

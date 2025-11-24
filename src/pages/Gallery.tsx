@@ -447,29 +447,29 @@ const Gallery = () => {
               description: 'Distribution of supplies and materials to support patrol activities'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_06.jpg',
-              title: 'Conservation Patrol',
-              description: 'Systematic patrolling of critical habitat areas'
+              url: '/images/amur-falcon/patrolling-squad/files_4875368-1763971547957-image (7).webp',
+              title: 'Equipment Distribution Event',
+              description: 'Officials distributing patrol supplies and equipment to community volunteers'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_07.jpg',
-              title: 'Squad Training',
-              description: 'Capacity building for effective falcon protection'
+              url: '/images/amur-falcon/patrolling-squad/files_4875368-1763971547959-image (8).webp',
+              title: 'Traditional Net Carriers',
+              description: 'Community members transporting traditional nets for falcon protection'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_08.jpg',
-              title: 'Field Operations',
-              description: 'Coordinated field activities for falcon conservation'
+              url: '/images/amur-falcon/patrolling-squad/files_4875368-1763971547947-image (9).webp',
+              title: 'Field Equipment Transport',
+              description: 'Local volunteer carrying traditional equipment for patrol activities'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_09.jpg',
-              title: 'Community Coordination',
-              description: 'Inter-village coordination for comprehensive protection'
+              url: '/images/amur-falcon/patrolling-squad/files_4875368-1763971547923-image (10).webp',
+              title: 'Protection Squad Kit',
+              description: 'Complete patrol equipment set including branded caps, vests, torches and supplies'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_10.jpg',
-              title: 'Safety Monitoring',
-              description: 'Ensuring safe passage during falcon migration'
+              url: '/images/amur-falcon/patrolling-squad/image (11).webp',
+              title: 'Official Squad ID Card',
+              description: 'Protection Squad identification card design - Amur Falcons Flying Free initiative'
             },
             {
               url: '/images/amur-falcon/patrolling-squad/patrol_11.jpg',

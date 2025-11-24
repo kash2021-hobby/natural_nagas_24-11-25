@@ -422,29 +422,29 @@ const Gallery = () => {
           title: 'Community Patrolling Squad',
           photos: [
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_01.jpg',
-              title: 'Patrolling Squad Formation',
-              description: 'Community patrolling teams monitoring falcon roosting sites'
+              url: '/images/amur-falcon/patrolling-squad/image (2).webp',
+              title: 'Squad Equipment Distribution',
+              description: 'Official distribution of patrol equipment and caps to squad members'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_02.jpg',
-              title: 'Night Patrol Operations',
-              description: 'Round-the-clock monitoring during migration season'
+              url: '/images/amur-falcon/patrolling-squad/image (3).webp',
+              title: 'Community Team Assembly',
+              description: 'Patrol squad members gathering for coordination and planning'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_03.jpg',
-              title: 'Community Vigilance',
-              description: 'Local volunteers ensuring falcon safety'
+              url: '/images/amur-falcon/patrolling-squad/image (4).webp',
+              title: 'Squad Members in Action',
+              description: 'Community volunteers in red vests ready for patrol duties'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_04.jpg',
-              title: 'Protection Activities',
-              description: 'Active protection measures during roosting periods'
+              url: '/images/amur-falcon/patrolling-squad/image (5).webp',
+              title: 'Official Recognition Ceremony',
+              description: 'Community and officials gathered for patrol squad recognition event'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_05.jpg',
-              title: 'Monitoring Teams',
-              description: 'Trained community members tracking falcon movements'
+              url: '/images/amur-falcon/patrolling-squad/image (6).webp',
+              title: 'Resource Allocation',
+              description: 'Distribution of supplies and materials to support patrol activities'
             },
             {
               url: '/images/amur-falcon/patrolling-squad/patrol_06.jpg',

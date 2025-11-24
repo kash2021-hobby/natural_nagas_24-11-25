@@ -82,7 +82,7 @@ const Gallery = () => {
               description: 'Community members learning traditional bamboo weaving and basket making skills'
             },
             {
-              url: 'https://page.gensparksite.com/v1/base64_upload/90d33c5241fd10dac809f0c6e7bbe21f',
+              url: '/images/green-dream-village.webp',
               title: 'Community Group Meeting',
               description: 'Village representatives gathering for community development discussions'
             },

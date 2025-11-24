@@ -82,7 +82,7 @@ const Gallery = () => {
               description: 'Community members learning traditional bamboo weaving and basket making skills'
             },
             {
-              url: '/images/green-dream-village.webp',
+              url: '/images/Biodiversity Management Board with chairman state biodiversity board Nagaland.webp',
               title: 'Community Group Meeting',
               description: 'Village representatives gathering for community development discussions'
             },

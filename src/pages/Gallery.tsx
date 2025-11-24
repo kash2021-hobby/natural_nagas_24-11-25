@@ -472,29 +472,29 @@ const Gallery = () => {
               description: 'Protection Squad identification card design - Amur Falcons Flying Free initiative'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_11.jpg',
-              title: 'Dedicated Volunteers',
-              description: 'Community volunteers committed to falcon conservation'
+              url: '/images/amur-falcon/patrolling-squad/image (16).webp',
+              title: 'Pride of Nagaland Banner',
+              description: 'Official awareness banner with village council conservation declaration and Rs 5000 fine notice'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_12.jpg',
-              title: 'Habitat Protection',
-              description: 'Protecting critical roosting and feeding areas'
+              url: '/images/amur-falcon/patrolling-squad/image (12).webp',
+              title: 'Official Squad Uniforms',
+              description: 'Stack of branded Protection Squad t-shirts ready for distribution to volunteers'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_13.jpg',
-              title: 'Migration Monitoring',
-              description: 'Tracking falcon migration patterns and behavior'
+              url: '/images/amur-falcon/patrolling-squad/image (13).webp',
+              title: 'Patrol Equipment Supplies',
+              description: 'Eveready torches and batteries provided for night patrol activities'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_14.jpg',
-              title: 'Conservation Success',
-              description: 'Celebrating achievements in falcon protection'
+              url: '/images/amur-falcon/patrolling-squad/image (14).webp',
+              title: 'Field Gear Distribution',
+              description: 'Boots and squad materials for volunteers conducting field patrols'
             },
             {
-              url: '/images/amur-falcon/patrolling-squad/patrol_15.jpg',
-              title: 'Ongoing Vigilance',
-              description: 'Continuous monitoring for long-term conservation success'
+              url: '/images/amur-falcon/patrolling-squad/image (15).webp',
+              title: 'Signboard Installation',
+              description: 'Team installing Pride of Nagaland awareness signboard in village'
             }
           ]
         }

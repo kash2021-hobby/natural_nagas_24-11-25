@@ -124,7 +124,7 @@ const Programs = () => {
       description: 'Community members assembled for environmental awareness and development programs'
     },
     {
-      url: 'https://page.gensparksite.com/v1/base64_upload/7e74979930d30bada4d074c0f44385b6',
+      url: '/images/cleanliness drive.webp',
       title: 'Youth Team Building Activity',
       description: 'Energetic group activity promoting community engagement and team spirit'
     },

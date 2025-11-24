@@ -114,7 +114,7 @@ const Programs = () => {
       description: 'Women participating in hands-on training for traditional string and textile crafts'
     },
     {
-      url: 'https://page.gensparksite.com/v1/base64_upload/1990fd4733c8952d244137ed54868652',
+      url: '/images/Beads stringing workshop (2).webp',
       title: 'Traditional Craft Training Session',
       description: 'Participants learning beadwork and traditional textile techniques'
     },

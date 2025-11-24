@@ -250,6 +250,31 @@ const Gallery = () => {
               url: '/images/gdp-activities/snack made with local produce.webp',
               title: 'Local Produce Value Addition',
               description: 'Traditional snacks made from local ingredients demonstrating food processing and income generation opportunities'
+            },
+            {
+              url: '/images/gdp-activities/workshop on production, processing and marketing locally produced food (2).webp',
+              title: 'Workshop on Production, Processing and Marketing Locally Produced Food',
+              description: 'Field training on local food production techniques and market linkage development for sustainable agriculture'
+            },
+            {
+              url: '/images/gdp-activities/training on bee keeping.webp',
+              title: 'Beekeeping Training Program',
+              description: 'Three-day basic modern beekeeping training with equipment distribution sponsored by Nagaland Beekeeping and Honey Mission'
+            },
+            {
+              url: '/images/gdp-activities/view point N Riphyim.webp',
+              title: 'New Riphyim Scenic Viewpoint',
+              description: 'Panoramic landscape view showcasing the natural beauty and eco-tourism potential of New Riphyim village'
+            },
+            {
+              url: '/images/gdp-activities/workshop on economic kitchen chullah and compost pit.webp',
+              title: 'Workshop on Economic Kitchen Chullah and Compost Pit',
+              description: 'Community training on economic kitchen stove use and waste management collaboration with Department of Land Resources Development'
+            },
+            {
+              url: '/images/gdp-activities/workshop on Mushroom culture.webp',
+              title: 'Mushroom Cultivation Training Workshop',
+              description: 'Hands-on demonstration of mushroom culture techniques for sustainable income generation and food security'
             }
           ]
         },
